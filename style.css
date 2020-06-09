@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(180deg,#487eb0,#009311);
+  min-height: 100vh;
+}
+
+
+.container{
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+}
+
+.head {
+  margin-top: 100px;
+  background-color: rgba(114, 109, 109, 0.3);
+}
+
+.head h1{
+ color: rgb(152, 152, 152, 4);
+ text-align: center;
+}
+
+
+.border {
+  margin-top: 30px;
+}
+
+.txtb{
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #000;
+  background: none;
+  padding: 10px;
+  outline: none;
+  font-size: 18px;
+  color: rgba(245, 245, 245, 0.544);
+
+}
+
+.txtb::placeholder {
+  color: rgba(245, 245, 245, 0.544);
+}
+
+
+h3{
+  margin: 10px 0;
+  color: rgb(152, 152, 152, 4);
+
+
+}
+
+.task{
+  width: 100%;
+  background: rgba(255,255,255,0.5);
+  padding: 18px;
+  margin: 6px 0;
+  overflow: hidden;
+}
+
+.task i{
+  float: right;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.comp .task{
+  background: rgba(0,0,0,.5);
+  color: rgb(152, 152, 152, 4);
+}
+
+.notcomp .task {
+  color: rgba(0, 0, 0, 0.701);
+}
